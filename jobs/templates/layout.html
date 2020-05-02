@@ -1,5 +1,6 @@
 <!doctype html>
 <html>
+{% from '_macros.html' import show_job, show_jobs with context %}
   <head>
     <title>Job Board</title>
     <link rel="stylesheet" href="{{url_for('static',filename='css/bulma.min.css')}}">
